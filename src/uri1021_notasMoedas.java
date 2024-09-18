@@ -40,7 +40,7 @@ public class uri1021_notasMoedas {
 
         // Calculando as moedas
         System.out.println("MOEDAS:");
-        for (int moeda : moedasValores) {576.73
+        for (int moeda : moedasValores) {
             int qtdMoedas = moedas / moeda;
             System.out.printf("%d moeda(s) de R$ %.2f%n", qtdMoedas, moeda / 100.0);
             moedas %= moeda; // Atualiza o valor das moedas restantes
